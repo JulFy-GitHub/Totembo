@@ -1,0 +1,270 @@
+@media(max-width: 1200px) {
+    .main__box {
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .main__title::after {
+        max-width: 1165px;
+        width: 100%;
+    }
+
+    .pre__footer-cards {
+        flex-direction: column;
+    }
+
+    .pre__footer-title::after {
+        max-width: 1165px;
+        width: 100%;
+    }
+
+    .nav__items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 992px) {
+    .nav__items {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* .main__box {
+        grid-template-columns: repeat(1, 1fr);
+    } */
+
+    .main__title::after {
+        width: 100%;
+    }
+
+    .box__item-info {
+        text-align: center;
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+
+    .social__icons {
+        justify-content: center;
+    }
+
+    .footer__info-block-two {
+        order: 2;
+    }
+}
+
+@media(max-width: 768px) {
+    .main__box {
+        grid-template-columns: repeat(1, 1fr)
+    }
+
+    .header__box {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: px;
+        grid-row-gap: 20px;
+    }
+
+    .footer__info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__info-block-two {
+        order: none;
+    }
+
+    .footer__info-contacts {
+        order: 3;
+    }
+
+    .footer__info-contacts-numbers {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .three {
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+    }
+
+    .one {
+        padding: 78px 33px 47px 20px;
+    }
+
+    .two {
+        padding: 78px 33px 47px 20px;
+    }
+
+    .pre__footer-card-img img {
+        width: 565px;
+    }
+
+    .pre__footer-card-info-text {
+        margin-bottom: 85px;
+    }
+
+    .nav-list {
+
+        flex-direction: column;
+        text-align: center;
+        order: 3;
+    }
+}
+
+@media(max-width: 576px) {
+    .nav-list {
+
+        flex-direction: column;
+        text-align: center;
+        order: 3;
+    }
+
+    .three {
+        padding: 70px 30px;
+        order: -1;
+    }
+
+    .header__box {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .pre__footer-card-img img {
+        width: 565px;
+    }
+
+    .pre__footer-card-info-text {
+        margin-bottom: 85px;
+    }
+    .pre__footer-card-info {
+        top: 80px;
+        left: 30px;
+    }
+
+    .pre__footer-card-info-date {
+        font-size: 10px;
+    }
+
+    .pre__footer-card::before{
+        font-size: 16px;
+    }
+
+    .pre__footer-title {
+        text-align: center;
+    }
+
+    .pre__footer-card-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pre__footer-card-info-title {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .pre__footer-card-info-text {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .footer__info {
+        gap: 80px;
+    }
+    .main__box-item {
+        padding: 78px 33px 47px 20px;
+    }
+}
+
+
+
+@media(max-width: 375px) {
+
+    .one,
+    .two,
+    .three,
+    .main__box-item {
+        padding: 78px 33px 47px 20px;
+    }
+
+    .three img {
+        width: 245px;
+        height: 185px;
+    }
+
+    .pre__footer-card-info {
+        top: 80px;
+        left: 30px;
+    }
+
+    .pre__footer-card-info-date {
+        font-size: 10px;
+    }
+
+    .pre__footer-card::before{
+        font-size: 16px;
+    }
+
+    .pre__footer-title {
+        text-align: center;
+    }
+
+    .pre__footer-card-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .pre__footer-card-info-title {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+
+    .pre__footer-card-info-text {
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .footer__info {
+        gap: 80px;
+    }
+}
+
+@media(max-width: 320px) {
+    .pre__footer-card-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .pre__footer-card::before{
+        font-size: 12px;
+    }
+
+    .pre__footer-card-info-title {
+        margin-bottom: 3px;
+        font-size: 12px;
+    }
+
+    .pre__footer-card-info-text {
+        font-size: 5px;
+        margin-bottom: 3px;
+    }
+
+    .footer__info {
+        gap: 80px;
+    }
+    .pre__footer-card-info-date {
+        font-size: 6px;
+    }
+
+    .pre__footer{
+        margin-bottom: 20px;
+    }
+}
